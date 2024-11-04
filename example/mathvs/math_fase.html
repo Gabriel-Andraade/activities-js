@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matemática</title>
+    <link rel="stylesheet" href="mathcss.css">
+</head>
+<body>
+    <header>
+        <h1>faça um bom aproveito</h1>
+    </header>
+    <main>
+                <section>
+            <button>digite aqui seu nome</button>
+        </section>
+                <section>
+            <div class="calculadora">
+                <input type="text" id="display" disabled>
+            <div class="botões">
+                    <button onclick="adicionaValor('7')">7</button>
+                        <button onclick="adicionaValor('8')">8</button>
+                            <button onclick="adicionaValor('9')">9</button>
+                <button onclick="setOperator('/')">/</button>
+                    <button onclick="adicionaValor('4')">4</button></div>
+                        <button onclick="adicionaValor('5')">5</button>
+                            <button onclick="adicionaValor('6')">6</button>
+                <button onclick="setOperator('*')">*</button>
+                    <button onclick="adicionaValor('1')">1</button>
+                        <button onclick="adicionaValor('2')">2</button>
+                            <button onclick="adicionaValor('3')">3</button>
+                <button onclick="setOperator('-')">-</button>
+                    <button onclick="adicionaValor('0')">0</button>
+                        <button onclick="calcular()">=</button>
+                <button onclick="setOperator('+')">+</button>
+                    <button onclick="limpar()">C</button>
+            </div>
+        </section>
+    </main>
+    <script src="mathjs.js"></script>
+</body>
+</html>
